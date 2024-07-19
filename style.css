@@ -1,0 +1,117 @@
+/* Reset CSS básico para limpar estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fcfcfc;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.preferences {
+    width: 30%;
+    background-color: #f59ef0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 60px; /* Espaçamento de 60px entre os blocos */
+}
+
+.preferences h2 {
+    margin-bottom: 10px;
+}
+
+.preferences label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.preferences select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#colorDisplay {
+    margin-bottom: 10px;
+}
+
+#colorName {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.list {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list h2 {
+    margin-bottom: 10px;
+}
+
+.list ul {
+    list-style-type: none;
+}
+
+.list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.list li:last-child {
+    border-bottom: none;
+}
+
+/* Theme 1 */
+.theme1 {
+    --main-bg-color: #f0f8ff;
+    --main-text-color: #000080;
+}
+
+/* Theme 2 */
+.theme2 {
+    --main-bg-color: #ffe4e1;
+    --main-text-color: #8b0000;
+}
+
+/* Theme 3 */
+.theme3 {
+    --main-bg-color: #fffacd;
+    --main-text-color: #228b22;
+}
+
+/* Apply the theme colors */
+body.theme1,
+body.theme2,
+body.theme3 {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+.preferences.theme1,
+.preferences.theme2,
+.preferences.theme3 {
+    background-color: var(--main-bg-color);
+}
+
+#colorName.theme1,
+#colorName.theme2,
+#colorName.theme3 {
+    color: var(--main-text-color);
+}
