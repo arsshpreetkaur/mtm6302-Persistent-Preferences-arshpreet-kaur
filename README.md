@@ -1,6 +1,26 @@
 # mtm6302-Persistent-Preferences-arshpreet-kaur
 
+Codings!
+
+Step 1: HTML Code.
+
+![image](https://github.com/user-attachments/assets/9ff59839-b85d-4998-b5f0-9abba5bde2af)
+
+Step 2: Style.css Code.
+
+![image](https://github.com/user-attachments/assets/78fa673a-a298-4e9b-ab09-99e4ddc8ffca)
+
+Step 3: Script.js Code.
+
+![image](https://github.com/user-attachments/assets/21b84aa3-0c99-40ab-a7cc-0a8c1c65260a)
+
+Collaboration!
+
+
+
+
 Outlook of the Result!
+
 Step 1: Dark Mode Theme.
 
 ![image](https://github.com/user-attachments/assets/a1aef0ee-748e-40ce-aa71-0a394c6c25a6)
