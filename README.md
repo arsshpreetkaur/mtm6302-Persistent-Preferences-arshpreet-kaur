@@ -16,6 +16,7 @@ Step 3: Script.js Code.
 
 Collaboration!
 
+![image](https://github.com/user-attachments/assets/8c74b046-ba83-4224-87cd-9e567be35de2)
 
 
 
